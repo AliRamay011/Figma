@@ -1,0 +1,1973 @@
+@import url(https://db.onlinewebfonts.com/c/cc84650569fd07dac022c55b20c66e46?family=Futura+Bk+BT+Book);
+body {
+  background-color: #e6e6fa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1310px;
+  margin: auto;
+}
+.overflow{
+  overflow: hidden;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.ul-item {
+  display: flex;
+  column-gap: 34px;
+  list-style: none;
+}
+li.item {
+  font-size: 17px;
+}
+.one-div {
+  display: flex;
+  align-items: center;
+  column-gap: 57px;
+}
+.lan-img {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.blck-code {
+  display: flex;
+  column-gap: 38px;
+}
+.logo-img img {
+  width: 69%;
+}
+button.btn {
+  padding: 12px 26px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  background-color: #b20561;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.blck-code {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+li.item {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Futura Bk BT Book";
+}
+
+.bg {
+  content: "";
+  top: 0;
+  background: url(img/a\ final.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 96vh;
+  overflow: hidden;
+}
+img.se-image {
+  width: 21%;
+  position: absolute;
+  top: 33.5%;
+  left: 38.6%;
+}
+h2.first-heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 85px;
+  width: 69%;
+  margin: auto;
+  padding-top: 44px;
+  line-height: 95px;
+  text-transform: capitalize;
+  font-family: "Bricolage Grotesque", sans-serif;
+  z-index: 2;
+  position: relative;
+}
+h1.second-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: -34px;
+  padding-top: 0px;
+  font-size: 100px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  stroke: white;
+  -webkit-text-stroke-width: 1px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+button.btn-1 {
+  padding: 8px 21px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: 88px auto 0px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* .fit-img2 img {
+    width: 88%;
+    margin-left: -12px;
+    margin-top: -74px;
+}
+.fit-img3 img {
+    margin-top: -94px;
+    width: 105%;
+    margin-left: -93px;
+}
+.fit-img4 img {
+    width: 90%;
+    margin-left: -148px;
+    margin-top: -77px;
+}
+.fit-img5 img {
+    width: 111%;
+    margin-left: -229px;
+    margin-top: -103px;
+} */
+.fit-img {
+  width: 20%;
+  display: inline-block;
+}
+.fit-img {
+  width: 18%;
+  display: inline-block;
+}
+/* .fit-img img{
+    width: 100%;
+    max-width: 260px ;
+} */
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
+.fit-img2 img {
+  margin-top: 90px;
+  width: 255px;
+}
+.fit-img4 img {
+  margin-top: 70px;
+  width: 270px;
+}
+.fit-img5 img {
+  margin-left: -47px;
+}
+.fit-img2 img {
+  margin-top: 95px;
+  width: 258px;
+  height: 360px;
+  object-fit: cover;
+}
+.fit-img4 img {
+  margin-top: 71px;
+  width: 258px;
+  height: 360px;
+  object-fit: cover;
+  margin-left: -9px;
+}
+.fit-img3 img {
+  height: 375px;
+  object-fit: cover;
+  width: 296px;
+  margin-left: -25px;
+}
+.fit-img5 img {
+  height: 375px;
+  object-fit: cover;
+  width: 296px;
+  margin-top: 21px;
+  margin-left: -40px;
+}
+.fit-img1 img {
+  height: 375px;
+  object-fit: cover;
+  width: 296px;
+  margin-top: -14px;
+}
+.badge {
+  position: absolute;
+  background-color: #b20561;
+  padding: 14px 0px;
+  transform: rotateZ(2deg);
+  width: 100%;
+  font-size: 16.4px;
+  right: 4px;
+  overflow: hidden;
+  color: white;
+  font-family: "Futura Bk BT Book";
+  font-weight: 600;
+}
+.badge1 {
+  background-color: #eed5df;
+  padding: 14px 0px;
+  transform: rotateZ(-6deg);
+  width: 100%;
+  font-size: 16.4px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  font-family: "Futura Bk BT Book";
+  font-weight: 600;
+}
+section.digital-section {
+  background-color: #e6e6fa;
+}
+#main-section {
+  background-color: #e6e6fa;
+}
+.badge-section {
+  background-color: #e6e6fa;
+  padding: 170px 0px;
+}
+.flex-services {
+  padding-top: 39px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 39px auto 0px;
+}
+.Services-section {
+  background-color: #e6e6fa;
+}
+h1.our-services {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.heading-block {
+  width: 44%;
+}
+p.services-para {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Futura Bk BT Book";
+  width: 121%;
+}
+img.combo-img {
+  margin-top: -7px;
+}
+button.btn-services {
+  padding: 9px 26px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-family: "Futura Bk BT Book";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.fit-img-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: -63px;
+  z-index: 2;
+  position: relative;
+  width: 99%;
+  margin-top: -144px;
+}
+h4.fit-heading1 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(16deg);
+  font-size: 32px;
+  width: 57%;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  position: relative;
+  top: 97px;
+  margin-left: 106px;
+}
+h4.fit-heading2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(-7deg);
+  font-size: 32px;
+  width: 86%;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  top: 185px;
+  margin-left: 16px;
+}
+h4.fit-heading3 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(16deg);
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 32px;
+  width: 66%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: 110px;
+  margin-left: 80px;
+}
+h4.fit-heading4 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(-9deg);
+  font-size: 32px;
+  width: 66%;
+  text-align: center;
+  position: relative;
+  top: 169px;
+  margin-left: 27px;
+}
+h4.fit-heading5 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(15deg);
+  font-size: 32px;
+  width: 66%;
+  text-align: center;
+  position: relative;
+  top: 126px;
+  margin-left: 67px;
+}
+.flex-design {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0px auto;
+}
+.web-design img {
+  width: 100%;
+}
+h1.web-heading {
+  left: 110px;
+  position: relative;
+  top: 84px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+}
+.combo-section {
+  content: "";
+  background: url(img/combo-bg.png) no-repeat center center / cover;
+  width: 100%;
+  /* background: radial-gradient(#D483A4, #82B6CF, #FF37FF); */
+  height: auto;
+}
+.Services-section {
+  background-color: #e6e6fa;
+  padding-bottom: 39px;
+}
+.combo-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 76%;
+  column-gap: 4px;
+  margin: 64px auto 0px;
+  height: 58vh;
+}
+h1.combo-first {
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Bricolage Grotesque";
+  display: flex;
+  justify-content: center;
+  margin-left: -22px;
+  width: 100%;
+}
+p.combo-para {
+  text-align: center;
+  font-weight: 600;
+  width: 91%;
+  font-family: "Futura Bk BT Book";
+}
+h4.cont-heading {
+  width: 27%;
+  transform: rotateZ(-27deg);
+  position: relative;
+  bottom: 287px;
+  left: 142px;
+  color: white;
+  line-height: 1.2;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Bricolage Grotesque";
+}
+h4.cont-heading1 {
+  width: 44%;
+  transform: rotateZ(-27deg);
+  position: relative;
+  bottom: 294px;
+  left: 134px;
+  color: white;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-family: "Bricolage Grotesque";
+}
+p.const-para {
+  width: 63%;
+  transform: rotateZ(-26deg);
+  position: relative;
+  bottom: 296px;
+  left: 116px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-family: "Bricolage Grotesque";
+}
+span.span-cont {
+  text-decoration: line-through;
+}
+.pg {
+  background: linear-gradient(#d483a4, #82b6cf, #b20561);
+  position: relative;
+  bottom: 321px;
+  width: 48.4%;
+  transform: rotateZ(-26deg);
+  left: 155px;
+  padding: 5px 0px;
+  font-family: "Bricolage Grotesque";
+}
+p.pg-para {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+button.combo {
+  position: relative;
+  bottom: 242px;
+  width: 40.3%;
+  transform: rotateZ(-26deg);
+  left: 195px;
+  padding: 10px 13px;
+  background: linear-gradient(#ffd1dc, #b20561);
+  color: black;
+  border-radius: 14px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+.blck-combo {
+  padding-top: 130px;
+}
+
+.website-design {
+  display: flex;
+  column-gap: 25px;
+  padding-left: 17px;
+}
+.combo-design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  width: 89%;
+  margin: 13px auto;
+  border-radius: 15px;
+  height: 61px;
+  font-family: "Futura Bk BT Book";
+}
+
+.com-img img {
+  width: 63%;
+  cursor: pointer;
+}
+.com-img {
+  margin-top: 15px;
+  width: 6%;
+  cursor: pointer;
+}
+h4.website-design-heading {
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Futura Bk BT Book";
+}
+p.combo-p {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Futura Bk BT Book";
+}
+.combo-design1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h4.website-design-heading1 {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Futura Bk BT Book";
+}
+.combo-bolk {
+  padding-bottom: 24px;
+  padding-top: 57px;
+}
+.combo-ul {
+  /* border: 1px solid black; */
+  width: 89%;
+  margin: 13px auto;
+  border-radius: 26px;
+  height: 31vh;
+  padding-bottom: 110px;
+  background-color: #6f90ac;
+}
+.combo-ul-1 {
+   border: 1px solid black; 
+  width: 89%;
+  margin: 13px auto;
+  border-radius: 26px;
+  height: 31vh;
+  padding-bottom: 110px;
+
+}
+
+ul.ul-combo {
+  margin-left: 91px;
+  margin-top: -11px;
+}
+li.item-combo {
+  font-size: 14px;
+  padding-bottom: 6px;
+  font-weight: 600;
+  font-family: "Futura Bk BT Book";
+}
+img.combo2 {
+  position: relative;
+  left: 738px;
+  bottom: 233px;
+  width: 24%;
+}
+
+img.img-port {
+  width: 311px;
+}
+.port-flex {
+  display: flex;
+  align-items: center;
+  width: 89%;
+  margin: auto;
+  column-gap: 85px;
+  padding-top: 78px;
+}
+h1.portfolio {
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 700;
+  width: 55%;
+  text-transform: capitalize;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+p.port-para {
+  font-size: 16px;
+  width: 87%;
+  margin-top: 31px;
+  font-family: "Futura Bk BT Book";
+  font-weight: 600;
+}
+.por-flx {
+  display: flex;
+  align-items: center;
+}
+li.li-port {
+  list-style: none;
+}
+img.li-img {
+  width: 7%;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+li.li-port {
+  list-style: none;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+  color: black;
+  cursor: pointer;
+}
+li.li-port:hover
+ {
+color: #b20561;
+border-bottom: 2px solid #b20561;
+}
+.mq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 18px;
+}
+.port-black-img1 img {
+  width: 300px;
+  height: 512px;
+}
+.port-black-img2 img {
+  width: 300px;
+  height: 590px;
+  position: relative;
+  top: 114px;
+}
+.port-black-img3 img {
+  width: 337px;
+  position: relative;
+  top: -76px;
+}
+.port-black-img4 img {
+  width: 300px;
+  height: 512px;
+  position: relative;
+  top: 114px;
+}
+.port-black-img5 img {
+  width: 300px;
+  height: 512px;
+}
+.marquee {
+  margin-top: 77px;
+}
+.first-exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-exp img {
+  width: 118px;
+}
+h1.exp-first-heading {
+  font-size: 40px;
+  width: 60%;
+  font-weight: 700;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.exp2 video {
+  width: 366px;
+  height: 488px;
+  border-radius: 14px;
+}
+p.para-exp-1 {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: 21px;
+    background: linear-gradient(to right, #41d280, #007dfc);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Futura Bk BT Book";
+}
+.exp-flex {
+  justify-content: space-around;
+  margin-top: 127px;
+  display: flex;
+  width: 89%;
+  margin: 127px auto 0px;
+  column-gap: 33px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 47px;
+}
+p.para-exp-2 {
+    font-size: 16px;
+    margin: 15px 3px;
+    width: 83%;
+    font-family: "Futura Bk BT Book";
+}
+button.btn-exp {
+  padding: 7px 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+h1.first-bussiness {
+    display: flex;
+    justify-content: center;
+    width: 43%;
+    text-align: center;
+    font-size: 35px;
+    margin: 50px auto;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+img.row-block {
+  width: 194px;
+}
+img.row-flex {
+  width: 456px;
+}
+.bussiness-row {
+    display: flex;
+    align-items: center;
+    width: 89%;
+    margin: auto;
+}
+
+.row-first-img {
+  text-align: center;
+}
+.column-img img {
+  width: 257px;
+}
+.column-img1 img {
+  width: 257px;
+}
+p.bussiness-para {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 32px auto 0px;
+    font-size: 16px;
+    font-family: "Futura Bk BT Book";
+    font-weight: 500;
+}
+p.lg {
+  font-size: 23px;
+  position: relative;
+  top: 162px;
+  color: white;
+}
+.pg-x {
+  font-size: 23px;
+  color: white;
+  position: relative;
+  top: 103px;
+  left: 80px;
+  transform: rotateZ(-54deg);
+}
+.lg-l {
+  left: 19px;
+  font-size: 20px;
+  position: relative;
+  top: 237px;
+  transform: rotateZ(52deg);
+  color: white;
+}
+.tabs-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-flex img {
+    width: 89%;
+}
+.exculsive {
+    display: flex;
+    justify-content: center;
+    background-color: #b20561;
+    width: 279px;
+    border-bottom-left-radius: 149px;
+    border-bottom-right-radius: 149px;
+    height: 149px;
+    margin: -1px auto;
+}
+h2.exculsive-heading1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 11px;
+  font-family: "Futura Bk BT Book";
+  font-weight: 500;
+}
+
+p.exclusive-para {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  margin-top: 14px;
+  font-family: "Futura Bk BT Book";
+}
+span.span-exculsive {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 800;
+  color: #b20561;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin: 10px 0px;
+}
+
+.li-flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+li.solid {
+  list-style: none;
+  font-size: 15px;
+  font-family: "Futura Bk BT Book";
+  margin: 8px;
+}
+.full-div {
+  height: 1px;
+  background: #a19b9b;
+  width: 100%;
+}
+button.exclusive-btn {
+  padding: 8px 26px;
+  display: flex;
+  justify-content: center;
+  background-color: #b20561;
+  margin: 10px auto;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.card {
+    border: 1px solid black;
+    width: 367px;
+    height: 537px;
+    background-color: black;
+    border-radius: 18px;
+    margin-left: 17px;
+}
+.exculsive2 {
+  margin-top: 10px;
+  color: white;
+}
+h1.exculsive-heading {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 37px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+h1.exculsive-heading2 {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 22px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 19px;
+}
+.card-flex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 32px;
+  margin-top: 36px;
+}
+h1.price-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    width: 41%;
+    text-align: center;
+    margin: 10px auto 30px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 800;
+}
+.clients {
+  content: "";
+  background: url(img/DESIGN23\ 1.png) no-repeat center center / cover;
+  width: 95%;
+  height: 662px;
+  margin: 80px auto;
+  overflow: hidden;
+}
+.clints-blck {
+  padding: 113px 0px 7px;
+}
+h1.clients-first-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 39px;
+  padding: 55px 0px 19px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+p.para-clint {
+  font-size: 16px;
+  font-family: "Reenie Beanie", cursive;
+}
+p.para-clint {
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Reenie Beanie", cursive;
+  width: 84%;
+  font-weight: 500;
+}
+.alt1 {
+  width: 10%;
+}
+.ds-img {
+  display: flex;
+  margin-left: 111px;
+  align-items: center;
+  margin-top: 45px;
+  column-gap: 300px;
+}
+img.alt2 {
+  width: 13%;
+}
+.form-flex {
+  display: flex;
+  width: 74%;
+  margin: auto;
+  column-gap: 148px;
+}
+h1.first-flex-heading {
+  width: 91%;
+  font-size: 40px;
+  margin-bottom: 12px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 400;
+}
+p.flex-first {
+  font-size: 16px;
+  font-family: "Futura Bk BT Book";
+  width: 116%;
+  line-height: 1.4;
+  margin-bottom: 27px;
+}
+.fm {
+  display: flex;
+  margin-top: 77px;
+}
+input#text {
+  width: 100%;
+  padding: 14px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+input#email {
+  width: 100%;
+  padding: 14px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+input#number {
+  width: 100%;
+  padding: 14px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.form-btn {
+  width: 100%;
+  padding: 14px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  background-color: white;
+  font-family: "Futura Bk BT Book";
+  font-size: 16px;
+}
+#textarea {
+  width: 100%;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  height: 30vh;
+}
+p.form-para {
+  font-size: 12px;
+  font-family: "Futura Bk BT Book";
+}
+img.img-sign {
+  width: 30%;
+  position: relative;
+  top: 57px;
+  left: 190px;
+}
+p.second-flex {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 12px;
+  font-family: "Futura Bk BT Book";
+}
+p.third-flex {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 12px;
+  font-family: "Futura Bk BT Book";
+}
+span.first-flex-span {
+  font-size: 16px;
+  border-bottom: 1px solid black;
+  font-family: "Futura Bk BT Book";
+}
+section.form-section {
+  background: linear-gradient(to right, #87ceeb, #ffd1dc, #b20561);
+  padding: 100px 0px 25px;
+}
+.footer-first img {
+  width: 66%;
+  margin-bottom: 12px;
+}
+p.footer-para {
+  width: 70%;
+  font-size: 14px;
+}
+input#email1 {
+  width: 100%;
+  padding: 14px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+p.footer-para {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 13px;
+  color: #e3e3e3;
+  font-family: "Futura Bk BT Book";
+  line-height: 23px;
+}
+input#email1 {
+  width: 78%;
+  padding: 14px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+input#email1 {
+  width: 100%;
+  padding: 19px 26px;
+  border: none;
+  border-radius: 34px;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+img.aro {
+  width: 14%;
+  position: relative;
+  top: -61px;
+  right: -265px;
+}
+
+h1.first-footer-head {
+  font-size: 26px;
+  color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-bottom: 18px;
+}
+.footer-first {
+  width: 540px;
+}
+.footer-second {
+  width: 404px;
+  margin-left: 83px;
+}
+.footer-third {
+  width: 404px;
+}
+.footer-four {
+  width: 404px;
+}
+li.footer-li {
+  list-style: none;
+  font-size: 16px;
+  color: white;
+  font-family: "Futura Bk BT Book";
+  margin: 18px 0px;
+}
+
+
+.footer-flex {
+  display: flex;
+  padding-top: 72px;
+  column-gap: 2px;
+  width: 87%;
+  margin: auto;
+}
+
+section.footer {
+  background: linear-gradient(#1d1d1d, #262a2c, #0d0d0e);
+}
+section.last-footer {
+  background-color: #b20561;
+  padding: 16px 0px;
+  display: flex;
+  justify-content: center;
+}
+footer.footer-last {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  font-family: "Futura Bk BT Book";
+}
+
+.tabs {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-left: 6px;
+}
+
+
+.tab-button {
+  border: none;
+  cursor: pointer;
+  background-image: url(img/blac.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+.st {
+  padding: 23px 35px;
+}
+.nd {
+  padding: 23px 45px;
+}
+.rd {
+  padding: 23px 41px;
+}
+.th {
+  padding: 23px 41px;
+}
+.td {
+  padding: 23px 42px;
+}
+.tb {
+  padding: 23px 49px;
+}
+
+.tab-button.active {
+  background-image: url(img/red.png);
+}
+
+
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+img.navbar-brand {
+  width: 14%;
+}
+.bg-color {
+  background-color: #87ceeb;
+  padding: 10px 10px;
+  border-start-end-radius: 16px;
+  border-start-start-radius: 16px;
+}
+.header {
+ background-color: #87ceeb;
+  padding: 12px 30px;
+  width: 1200px;
+  margin: 15px auto 0 auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.ul-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px; 
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #b20561;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon span,
+.menu-icon span::before,
+.menu-icon span::after {
+  display: block;
+  background-color: #000;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.menu-icon span::before,
+.menu-icon span::after {
+  content: '';
+  position: absolute;
+}
+
+.menu-icon span::before {
+  transform: translateY(-8px);
+}
+
+.menu-icon span::after {
+  transform: translateY(8px);
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #85C1E9;
+    position: absolute;
+    top: 83px;
+    left: 0;
+    z-index: 99;
+    padding-bottom: 14px;
+}
+
+  .menu li {
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  #menu-toggle:checked + .menu-icon + .menu {
+      display: flex;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+  .ul-nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: 153px;
+}
+h2.first-heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 65px;
+  width: 100%;
+  margin: auto;
+  padding-top: 44px;
+  line-height: 77px;
+  text-transform: capitalize;
+  font-family: "Bricolage Grotesque", sans-serif;
+  z-index: 2;
+  position: relative;
+}
+h1.second-heading {
+  display: flex;
+  text-align: center;
+ 
+  width: 100%;
+  margin-top: -13px;
+  padding-top: 0px;
+  font-size: 65px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  stroke: white;
+  -webkit-text-stroke-width: 1px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.fit-img-flex {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  left: 46px;
+  margin-top: -61px;
+  flex-direction: column;
+}
+h4.fit-heading1 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(16deg);
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  position: relative;
+  top: 97px;
+  margin-left: 140px;
+}
+.fit-img2 img {
+  margin-top: 0px;
+  width: 258px;
+  height: 360px;
+  object-fit: cover;
+}
+h4.fit-heading2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(-7deg);
+  font-size: 32px;
+  width: 102%;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  top: 100px;
+  margin-left: 82px;
+}
+h4.fit-heading3 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(16deg);
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 32px;
+  width: 66%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: 111px;
+  margin-left: 156px;
+}
+.fit-img3 img {
+  margin-left: 0px;
+}
+h4.fit-heading4 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(-8deg);
+  font-size: 32px;
+  width: 66%;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin-left: 104px;
+}
+.fit-img4 img {
+  margin-top: 0px;
+  width: 258px;
+  height: 360px;
+  object-fit: cover;
+  margin-left: 13px;
+}
+.fit-img5 img {
+  height: 375px;
+  object-fit: cover;
+  width: 296px;
+  margin-top: 0px;
+  margin-left: -2px;
+}
+h4.fit-heading5 {
+  display: flex;
+  justify-content: center;
+  transform: rotateZ(15deg);
+  font-size: 32px;
+  width: 66%;
+  text-align: center;
+  position: relative;
+  top: 110px;
+  margin-left: 159px;
+}
+.badge {
+  position: absolute;
+  background-color: #b20561;
+  padding: 14px 0px;
+  transform: rotateZ(7deg);
+  width: 100%;
+  font-size: 16.4px;
+  right: 4px;
+  overflow: hidden;
+  color: white;
+  font-family: "Futura Bk BT Book";
+  font-weight: 600;
+}
+.badge1 {
+  background-color: #eed5df;
+  padding: 14px 0px;
+  transform: rotateZ(-12deg);
+  width: 100%;
+  font-size: 16.4px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  font-family: "Futura Bk BT Book";
+  font-weight: 600;
+}
+.flex-services {
+  padding-top: 39px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  width: 90%;
+  margin: -1px auto 0px;
+}
+h1.our-services {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  margin-bottom: 16px;
+}
+.heading-block {
+  width: 100%;
+}
+p.services-para {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Futura Bk BT Book";
+  width: 100%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.services-button {
+  display: flex;
+  justify-content: center;
+}
+.flex-design {
+  display: grid;
+  width: 80%;
+  margin: 0px auto;
+}
+h1.web-heading {
+  left: 46px;
+  position: relative;
+  top: 46px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+}
+.combo-flex {
+  display: grid;
+  width: 100%;
+  column-gap: 4px;
+  margin: 64px auto 0px;
+  height: 58vh;
+}
+img.combo-img {
+  margin-left: 34px;
+  margin-top: 2px;
+  width: 83%;
+}
+h4.cont-heading {
+  width: 21%;
+  transform: rotateZ(-27deg);
+  position: relative;
+  bottom: 241px;
+  left: 157px;
+  color: white;
+  line-height: 1.2;
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Bricolage Grotesque";
+}
+button.combo {
+  position: relative;
+  bottom: 199px;
+  width: 25.3%;
+  transform: rotateZ(-26deg);
+  left: 215px;
+  padding: 10px 13px;
+  background: linear-gradient(#ffd1dc, #b20561);
+  color: black;
+  border-radius: 14px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.pg {
+  background: linear-gradient(#d483a4, #82b6cf, #b20561);
+  position: relative;
+  bottom: 263px;
+  width: 40.2%;
+  transform: rotateZ(-26deg);
+  left: 168px;
+  padding: 5px 0px;
+  font-family: "Bricolage Grotesque";
+  font-size: 12px;
+}
+p.const-para {
+  width: 63%;
+  transform: rotateZ(-26deg);
+  position: relative;
+  bottom: 246px;
+  left: 110px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-family: "Bricolage Grotesque";
+}
+h4.cont-heading1 {
+  width: 44%;
+  transform: rotateZ(-27deg);
+  position: relative;
+  bottom: 244px;
+  left: 132px;
+  color: white;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-family: "Bricolage Grotesque";
+}
+.blck-combo {
+  margin-top: -158px;
+  padding-top: 0px;
+}
+.combo-bolk {
+  padding-bottom: 24px;
+  padding-top: 135px;
+}
+h1.combo-first {
+  font-size: 54px;
+  font-weight: 600;
+  font-family: "Bricolage Grotesque";
+  display: flex;
+  /* justify-content: center; */
+  margin-left: -22px;
+  width: 68%;
+  text-align: center;
+  margin: auto;
+}
+p.combo-para {
+  text-align: center;
+  font-weight: 600;
+  width: 81%;
+  margin: auto;
+  font-family: "Futura Bk BT Book";
+  text-align: center;
+  margin-top: 10px;
+}
+.website-design {
+  display: flex;
+  align-items: center;
+  column-gap: 29px;
+  padding-left: 18px;
+}
+.combo-design {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  width: 89%;
+  margin: 13px auto;
+  border-radius: 25px;
+  height: 54px;
+  font-family: "Futura Bk BT Book";
+}
+
+.com-img {
+  width: 60px;
+  margin-top: 7px;
+}
+
+.com-img img {
+  width: 87%;
+  cursor: pointer;
+}
+h4.website-design-heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Futura Bk BT Book";
+} 
+ul.ul-combo {
+  margin-left: 91px;
+  margin-top: 44px;
+}
+h4.website-design-heading1 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Futura Bk BT Book";
+}
+.combo-design1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.combo-ul {
+ 
+  height: 25vh;
+  
+}
+ul.ul-combo {
+  margin-left: 93px;
+  margin-top: -1px;
+}
+.port-flex {
+  display: grid;
+  align-items: center;
+  width: 77%;
+  margin: auto;
+  column-gap: 85px;
+  padding-top: 75px;
+}
+h1.portfolio {
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-top: 14px;
+}
+p.port-para {
+  font-size: 14px;
+  width: 100%;
+  margin-top: 30px;
+  font-family: "Futura Bk BT Book";
+  font-weight: 600;
+  text-align: center;
+}
+.por-flx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.exp-flex {
+  justify-content: space-around;
+  margin-top: 127px;
+  display: flex;
+  width: 89%;
+  margin: 127px auto 0px;
+  column-gap: 33px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 47px;
+  flex-direction: column;
+}
+h1.exp-first-heading {
+  font-size: 32px;
+  width: 60%;
+  font-weight: 700;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+p.para-exp-1 {
+  font-size: 18px;
+  text-align: center;
+}
+p.para-exp-2 {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+.exp-button {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+}
+.exp2 video {
+  width: 295px;
+  height: 321px;
+  border-radius: 14px;
+} 
+h1.first-bussiness {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  text-align: center;
+  font-size: 23px;
+  margin: 50px auto;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.bussiness-row {
+  display: flex;
+  align-items: center;
+  width: 89%;
+  margin: auto;
+  flex-direction: column;
+}
+h1.price-heading {
+ 
+  width: 91%;
+ 
+}
+.tabs {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-left: 3px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  margin-top: 19px;
+  flex-direction: column;
+}
+.card {
+  border: 1px solid black;
+  width: 332px;
+  height: 537px;
+  background-color: black;
+  border-radius: 18px;
+  margin-left: 17px;
+  margin-bottom: 10px;
+}
+h1.clients-first-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 39px;
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 55px 0px 19px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+p.para-clint {
+  
+  width: 86%;
+ 
+}
+.clients {
+  content: "";
+  background: url(img/DESIGN23\ 1.png) no-repeat center center / cover;
+  width: 95%;
+  height: 933px;
+  margin: 80px auto;
+  overflow: hidden;
+}
+.ds-img {
+  display: flex;
+  margin-left: 0px;
+  align-items: center;
+  margin-top: 45px;
+  column-gap: 119px;
+  justify-content: center;
+}
+.form-flex {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  column-gap: 148px;
+  flex-direction: column;
+}
+h1.first-flex-heading {
+  width: 100%;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 12px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 400;
+}
+p.flex-first {
+  font-size: 16px;
+  font-family: "Futura Bk BT Book";
+  width: 100%;
+  line-height: 1.4;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.fm1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 68%;
+}
+.fm {
+  display: flex;
+  margin-top: 77px;
+  flex-direction: column;
+}
+form {
+  padding-top: 79px;
+}
+img.img-sign {
+  width: 30%;
+  position: relative;
+  top: 45px;
+  left: 114px;
+}
+p.form-para {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Futura Bk BT Book";
+}
+.footer-flex {
+  display: flex;
+  padding-top: 72px;
+  column-gap: 2px;
+  width: 86%;
+  margin: auto;
+  padding: 17px 0px 16px;
+  flex-direction: column;
+}
+
+.footer-first img {
+  width: 42%;
+  margin-bottom: 12px;
+}
+p.footer-para {
+  text-align: center;
+  width: 56%;
+  font-size: 14px;
+  margin-bottom: 13px;
+  color: #e3e3e3;
+  font-family: "Futura Bk BT Book";
+  line-height: 23px;
+}
+input#email1 {
+  width: 59%;
+  padding: 19px 26px;
+  border: none;
+  border-radius: 34px;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+img.aro {
+  width: 7% !important;
+  position: relative;
+  top: 27px;
+  right: 59px;
+}
+.footer-first {
+  width:100%; 
+}
+.footer-first img {
+  width: 80%;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+p.footer-para {
+  text-align: center;
+  width: 79%;
+  font-size: 14px;
+  margin-bottom: 13px;
+  color: #e3e3e3;
+  font-family: "Futura Bk BT Book";
+  line-height: 23px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 15px auto;
+}
+input#email1 {
+  width: 79%;
+  padding: 19px 26px;
+  border: none;
+  border-radius: 34px;
+  margin-bottom: 12px;
+  margin-top: 15px;
+  margin: 15px auto 12px;
+  display: flex;
+  justify-content: center;
+}
+img.aro {
+  width: 13% !important;
+  position: relative;
+  top: -60px;
+  right: -93px;
+}
+.footer-second {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+li.footer-li {
+  list-style: none;
+  font-size: 16px;
+  color: white;
+  font-family: "Futura Bk BT Book";
+  margin: 13px 0px;
+}
+.footer-third {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 17px;
+}
+.footer-four {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12px;
+  text-align: center;
+}
+footer.footer-last {
+  color: white;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  font-family: "Futura Bk BT Book";
+}
+
+
+}
